@@ -1,0 +1,1473 @@
+2014/07/11 10:38:36 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:38:37 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:38:37 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:38:37 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:38:37 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:38:38 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:38:41 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/megadoc/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /var/www/megadoc-vn/themes/megadoc/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 10:43:01 [error] [php] include(Slide.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/classic/views/site/index.php(7): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/megadoc-vn/themes/classic/views/site/index.php (7)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 11:05:00 [error] [php] include(LastAtivities.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/classic/views/site/index.php(2036): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/megadoc-vn/themes/classic/views/site/index.php (2036)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 11:07:28 [error] [php] include(adsWidget.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /var/www/framework/YiiBase.php(303): class_exists()
+#2 /var/www/framework/web/CWidgetFactory.php(146): import()
+#3 /var/www/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /var/www/framework/web/CBaseController.php(180): SiteController->createWidget()
+#5 /var/www/megadoc-vn/themes/classic/views/site/index.php(2043): SiteController->widget()
+#6 /var/www/framework/web/CBaseController.php(126): require()
+#7 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#9 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#10 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/megadoc-vn/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/megadoc-vn/themes/classic/views/site/index.php (2043)
+in /var/www/megadoc-vn/protected/controllers/SiteController.php (32)
+in /var/www/megadoc-vn/index.php (13)
+2014/07/11 13:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 13:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 13:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 13:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/
+---
+2014/07/11 14:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:05:13 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "baseUrl".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/megadoc-vn/protected/components/views/homePageContent.php(23): CComponent->__call('baseUrl', Array)
+#1 /var/www/megadoc-vn/protected/components/views/homePageContent.php(23): CWebApplication->baseUrl(true)
+#2 /var/www/framework/web/CBaseController.php(130): require('/var/www/megado...')
+#3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/megado...', NULL, false)
+#4 /var/www/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/var/www/megado...', NULL, false)
+#5 /var/www/megadoc-vn/protected/components/HomePageContent.php(13): CWidget->render('homePageContent')
+#6 /var/www/framework/zii/widgets/CPortlet.php(97): HomePageContent->renderContent()
+#7 /var/www/framework/web/CBaseController.php(181): CPortlet->run()
+#8 /var/www/megadoc-vn/themes/classic/views/site/index.php(9): CBaseController->widget('HomePageContent')
+#9 /var/www/framework/web/CBaseController.php(126): require('/var/www/megado...')
+#10 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/megado...', NULL, true)
+#11 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/megado...', NULL, true)
+#12 /var/www/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#13 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#15 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#17 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/framework/web/CWebApplication.php(282): CController->run('')
+#19 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/07/11 14:05:23 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "baseUrl".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/megadoc-vn/protected/components/views/homePageContent.php(23): CComponent->__call('baseUrl', Array)
+#1 /var/www/megadoc-vn/protected/components/views/homePageContent.php(23): CWebApplication->baseUrl()
+#2 /var/www/framework/web/CBaseController.php(130): require('/var/www/megado...')
+#3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/megado...', NULL, false)
+#4 /var/www/framework/web/widgets/CWidget.php(244): CBaseController->renderFile('/var/www/megado...', NULL, false)
+#5 /var/www/megadoc-vn/protected/components/HomePageContent.php(13): CWidget->render('homePageContent')
+#6 /var/www/framework/zii/widgets/CPortlet.php(97): HomePageContent->renderContent()
+#7 /var/www/framework/web/CBaseController.php(181): CPortlet->run()
+#8 /var/www/megadoc-vn/themes/classic/views/site/index.php(9): CBaseController->widget('HomePageContent')
+#9 /var/www/framework/web/CBaseController.php(126): require('/var/www/megado...')
+#10 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/megado...', NULL, true)
+#11 /var/www/framework/web/CController.php(869): CBaseController->renderFile('/var/www/megado...', NULL, true)
+#12 /var/www/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#13 /var/www/megadoc-vn/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#15 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /var/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#17 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/framework/web/CWebApplication.php(282): CController->run('')
+#19 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/07/11 14:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc2.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc2.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc2.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "google.com".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('google.com')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/google.com
+---
+2014/07/11 14:22:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:22:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:31:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:46:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/
+---
+2014/07/11 14:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/category
+---
+2014/07/11 14:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/book1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/book1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/book1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/doc1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img/doc1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/doc1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
+2014/07/11 14:53:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img//user1.jpg".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('img//user1.jpg')
+#1 /var/www/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/megadoc-vn/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img//user1.jpg
+HTTP_REFERER=http://megadoc.local/index.php/document
+---
